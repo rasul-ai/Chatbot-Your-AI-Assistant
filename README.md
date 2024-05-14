@@ -12,6 +12,10 @@ Here is a short description how I manage the steps to create a ChatGPT like stru
        
     3. Finally, I have used pretrained gpt-3 model to respond to the user input and successfully built a ChatGPT-like app.
 To complete these steps, [This site](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps) helps me a lot.\
+To run the python code use the following,
+```
+streamlit run [file path]
+```
 \
 To install dependencies write the below script in commandline,
 ```
