@@ -1,6 +1,6 @@
 # My-ChatGPT-Using-Streamlit
 **Author:** [Md Rasul Islam Bapary]  
-**Date:** [24.11.2023]\
+**Date:** [13.05.2024]\
 \
 This repository is created to learn Streamlit(a open-source python library) that allows to create interactive web applications for machine learning, data visualization, and data analysis. Here I am implementing OpenAI model to create a ChatGPT like architecture using Streamlit.
 
