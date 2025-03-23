@@ -1,23 +1,45 @@
-# My-ChatGPT-Using-Streamlit
+# Chatbot: Your AI Assistant (Powered by Ollama & Streamlit) 🚀
 **Author:** [Md Rasul Islam Bapary]  
 **Date:** [13.05.2024]\
 \
-This repository is created to learn Streamlit(a open-source python library) that allows to create interactive web applications for machine learning, data visualization, and data analysis. Here I am implementing OpenAI model to create a ChatGPT like architecture using Streamlit.
+A lightweight **AI chatbot** using **LLaMA 3**, built with **Streamlit** and **Ollama** for seamless interaction. This repository is created to learn Streamlit(a open-source python library) that allows to create interactive web applications for machine learning, data visualization, and data analysis.
 
-Here is a short description how I manage the steps to create a ChatGPT like structure,
+---
 
-    1. First, I have Built a bot that mirrors my input to get a feel just like a simple chatbot and how it work.
-       
-    2. Then I have applied a simple GUI with streaming.
-       
-    3. Finally, I have used pretrained gpt-3 model to respond to the user input and successfully built a ChatGPT-like app.
-To complete these steps, [This site](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps) helps me a lot.\
-To run the python code use the following,
+## 📌 Features  
+✔️ Chat with **LLaMA 3** locally  
+✔️ **Streaming responses** for real-time conversations  
+✔️ **User-friendly UI** powered by **Streamlit**  
+✔️ **No API key required** – runs **entirely offline**  
+
+---
+
+## 🔧 Installation  
+
+### 1️⃣ Install Dependencies  
+Run the following command to install required Python libraries:  
+```bash
+pip install streamlit ollama
 ```
-streamlit run [file path]
+### 2️⃣ Install Ollama (if not installed)
+To use LLaMA 3 or any other ollama model, you need to install Ollama:
+
+#### 🖥️ Linux & macOS
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
 ```
-\
-To install dependencies write the below script in commandline,
+#### 🖥️ Windows
+Download and install Ollama from the official website: [Ollama Installation](https://ollama.com/)
+
+### 3️⃣ Download LLaMA 3 Model
+Once Ollama is installed, download the LLaMA 3 model:
+
+```bash
+ollama pull llama3
 ```
-pip install openai streamlit
+## 🚀 Running the Chatbot
+After installing dependencies, start the chatbot by running:
+
+```bash
+streamlit run Ollama_chatbot.py
 ```
