@@ -43,3 +43,11 @@ After installing dependencies, start the chatbot by running:
 ```bash
 streamlit run Ollama_chatbot.py
 ```
+### 📸 Screenshot
+![Example of chatbot's interface]()
+
+### 🛠️ Contributing
+Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a pull request.
+
+
+💡 If you find this project useful, don't forget to ⭐ star the repository!
