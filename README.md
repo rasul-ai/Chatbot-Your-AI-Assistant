@@ -1,7 +1,4 @@
 # Chatbot: Your AI Assistant (Powered by Ollama & Streamlit) 🚀
-**Author:** [Md Rasul Islam Bapary]  
-**Date:** [13.05.2024]\
-\
 A lightweight **AI chatbot** using **LLaMA 3**, built with **Streamlit** and **Ollama** for seamless interaction. This repository is created to learn Streamlit(a open-source python library) that allows to create interactive web applications for machine learning, data visualization, and data analysis.
 
 ---
